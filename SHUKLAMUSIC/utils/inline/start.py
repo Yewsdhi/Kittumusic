@@ -1,4 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
+from pyrogram.enums import ButtonStyle
 
 import config
 from SHUKLAMUSIC import app
@@ -30,7 +31,7 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID, style=ButtonStyle.SUCCESS),
         ],
     ]
     return buttons
