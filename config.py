@@ -30,13 +30,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/APIMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Yewsdhi/Kittumusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_DPZ_WORLDS_lll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_DPZ_WORLDS_lll")
 
 # YT-API Get from @AmShashank on tg
 YOUR_API_KEY = getenv("YOUR_API_KEY", "")
