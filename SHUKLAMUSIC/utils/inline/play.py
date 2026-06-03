@@ -1,5 +1,6 @@
 import math
 from pyrogram.types import InlineKeyboardButton
+from pyrogram.enums import ButtonStyle
 from SHUKLAMUSIC import app
 import config
 from SHUKLAMUSIC.utils.formatters import time_to_seconds
