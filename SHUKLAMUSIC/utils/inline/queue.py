@@ -2,7 +2,7 @@ from typing import Union
 from SHUKLAMUSIC import app
 from SHUKLAMUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
+from pyrogram.enums import ButtonStyle
 
 def queue_markup(
     _,
