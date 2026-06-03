@@ -82,8 +82,8 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/t18g0v.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/t18g0v.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/cggw4y.mp4")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/cggw4y.mp4")
 PLAYLIST_IMG_URL = "https://files.catbox.moe/t18g0v.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/t18g0v.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
