@@ -1,6 +1,3 @@
-# a part of Opus Music Project 2025 ©
-# this code is & will be our property as it is or even after modified 
-# must give credits if used this code anywhere 
 import os
 import re
 import textwrap
@@ -116,9 +113,9 @@ async def gen_thumb(videoid):
                 return ImageFont.truetype(path, size)
             except:
                 return ImageFont.load_default()
-        font = safe_font("AviaxMusic/assets/font.ttf", 30)
-        font2 = safe_font("AviaxMusic/assets/font.ttf", 30)
-        arial = safe_font("AviaxMusic/assets/font2.ttf", 30)
+        font = safe_font("SHUKLAMUSIC/assets/font.ttf", 30)
+        font2 = safe_font("SHUKLAMUSIC/assets/font.ttf", 30)
+        arial = safe_font("SHUKLAMUSIC/assets/font2.ttf", 30)
         # Draw text
         draw = ImageDraw.Draw(background)
         # Channel | Views
